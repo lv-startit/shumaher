@@ -1,0 +1,14 @@
+apply plugin: "java"
+
+
+sourceSets{
+	test.java.srcDir "src/main/java"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'HelloWorld'}
+    }
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
