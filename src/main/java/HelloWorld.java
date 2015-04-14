@@ -1,5 +1,3 @@
-package main.java;
-
 import lejos.hardware.BrickFinder;
 import lejos.hardware.Keys;
 import lejos.hardware.ev3.EV3;

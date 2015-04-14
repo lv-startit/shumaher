@@ -1,4 +1,3 @@
-package main.java;
 
 import lejos.hardware.lcd.LCD;
 import lejos.hardware.motor.Motor;
