@@ -15,7 +15,7 @@ public class ShumaherRun {
 	private static EV3UltrasonicSensor us = new EV3UltrasonicSensor(SensorPort.S2);
 	static SampleProvider distance = us.getDistanceMode();
 	
-	static boolean checks = false;
+	static boolean check = false;
 	
 	
 	public static void main(String[] args) {
@@ -44,7 +44,7 @@ public class ShumaherRun {
 		 return true;
 		}
 		
-		 return checks;
+		 return check;
 	}
 	
 	public static void action(){
